@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Data;
+using System.Data.SqlClient;
+
+namespace NuvemWA.Models
+{
+    public class Vendors
+    {
+        public int VendorId { get; set; }
+        public string VendorName { get; set; }
+        public string VendorCreatedBy { get; set; }
+        public DateTime VendorCreatedDate { get; set; }
+        public string VendorModifiedBy { get; set; }
+        public Nullable<DateTime> VendorModifiedDate { get; set; }
+    }
+}

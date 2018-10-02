@@ -1,0 +1,1915 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Q",
+				"QOfferStatus"
+			],
+			[
+				"QHeader",
+				"QHeaderStatus"
+			],
+			[
+				"on",
+				"onSaveChanges"
+			],
+			[
+				"btn",
+				"btnSaveCancel"
+			],
+			[
+				"but",
+				"button"
+			],
+			[
+				"pli",
+				"pluginEditing"
+			],
+			[
+				"cont",
+				"contextRecord"
+			],
+			[
+				"conte",
+				"contextRecord"
+			],
+			[
+				"grid",
+				"gridpanel"
+			],
+			[
+				"valu",
+				"valueModels"
+			],
+			[
+				"la",
+				"layout"
+			],
+			[
+				"Ite",
+				"ItemName"
+			],
+			[
+				"Item",
+				"ItemKey"
+			],
+			[
+				"fie",
+				"field"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"fiter",
+				"filtersFields"
+			],
+			[
+				"quer",
+				"queryParams"
+			],
+			[
+				"last",
+				"lastOptions"
+			],
+			[
+				"ve",
+				"vendors"
+			],
+			[
+				"re",
+				"record"
+			],
+			[
+				"editi",
+				"editingPlugin"
+			],
+			[
+				"row",
+				"rowEditForm"
+			],
+			[
+				"store",
+				"storeCategories"
+			],
+			[
+				"Vendor",
+				"VendorKey"
+			],
+			[
+				"gridc",
+				"gridcategories"
+			],
+			[
+				"Ca",
+				"CategoryName"
+			],
+			[
+				"Cate",
+				"CategoryKey"
+			],
+			[
+				"co",
+				"column"
+			],
+			[
+				"init",
+				"initSupport"
+			],
+			[
+				"USer",
+				"UserFirstLogon"
+			],
+			[
+				"vendor",
+				"vendorsPanel"
+			],
+			[
+				"vendo",
+				"vendorsGeneral"
+			],
+			[
+				"crea",
+				"createPanel"
+			],
+			[
+				"create",
+				"createGeneral"
+			],
+			[
+				"stor",
+				"storeOffers"
+			],
+			[
+				"form",
+				"formQuotes"
+			],
+			[
+				"Cust",
+				"CustKey"
+			],
+			[
+				"mode",
+				"modeApp"
+			],
+			[
+				"call",
+				"callerForm"
+			],
+			[
+				"load",
+				"loadQuote"
+			],
+			[
+				"app",
+				"application"
+			],
+			[
+				"item",
+				"itemId"
+			],
+			[
+				"view",
+				"viewport"
+			],
+			[
+				"ven",
+				"vendorsNotifyButton"
+			],
+			[
+				"loa",
+				"location"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"msg",
+				"msgBox"
+			],
+			[
+				"QHeaderD",
+				"QHeaderDateBegin"
+			],
+			[
+				"rowEd",
+				"rowEditForm"
+			],
+			[
+				"Noti",
+				"NotifyRead"
+			],
+			[
+				"Not",
+				"NotifyRead"
+			],
+			[
+				"pu",
+				"purchasersNotifyButton"
+			],
+			[
+				"upda",
+				"updateHTML"
+			],
+			[
+				"check",
+				"checkVendorsNotifications"
+			],
+			[
+				"che",
+				"checkPurchasersNotifications"
+			],
+			[
+				"QOf",
+				"QOfferKey"
+			],
+			[
+				"col",
+				"columnWidth"
+			],
+			[
+				"cus",
+				"custFilter"
+			],
+			[
+				"reco",
+				"records"
+			],
+			[
+				"gridOf",
+				"gridOfferDetails"
+			],
+			[
+				"gr",
+				"gridOfferDetails"
+			],
+			[
+				"QO",
+				"QOfferDraft"
+			],
+			[
+				"st",
+				"store"
+			],
+			[
+				"get",
+				"getEl"
+			],
+			[
+				"save",
+				"savedRecord"
+			],
+			[
+				"all",
+				"allowBlank"
+			],
+			[
+				"Quo",
+				"QuoteOfferDetails"
+			],
+			[
+				"rec",
+				"records"
+			],
+			[
+				"r",
+				"records"
+			],
+			[
+				"record",
+				"record"
+			],
+			[
+				"Quote",
+				"QuoteOffers"
+			],
+			[
+				"recor",
+				"records"
+			],
+			[
+				"No",
+				"notificações"
+			],
+			[
+				"ud",
+				"updateHTML"
+			],
+			[
+				"QM",
+				"QMessageFromVendorKey"
+			],
+			[
+				"remove",
+				"removeCurrentRecord"
+			],
+			[
+				"QH",
+				"QHeaderBrasil"
+			],
+			[
+				"Cot",
+				"Cotação"
+			],
+			[
+				"curre",
+				"currentRecord"
+			],
+			[
+				"fil",
+				"filtersFields"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"consol",
+				"console"
+			],
+			[
+				"butto",
+				"buttons"
+			],
+			[
+				"curr",
+				"currentRecord"
+			],
+			[
+				"rowE",
+				"rowEditing"
+			],
+			[
+				"e",
+				"editing"
+			],
+			[
+				"rowI",
+				"rowItemsEditingPlugin"
+			],
+			[
+				"onCl",
+				"onClickAddline"
+			],
+			[
+				"is",
+				"isPhantom"
+			],
+			[
+				"cu",
+				"currentRecord"
+			],
+			[
+				"max",
+				"maxHeight"
+			],
+			[
+				"btnS",
+				"btnSaveDraft"
+			],
+			[
+				"t",
+				"this"
+			],
+			[
+				"fiel",
+				"fieldset"
+			],
+			[
+				"con",
+				"connection"
+			],
+			[
+				"string",
+				"stringCommand"
+			],
+			[
+				"sel",
+				"selectedVendor"
+			],
+			[
+				"In",
+				"InterestedVendorKey"
+			],
+			[
+				"selec",
+				"selectedVendor"
+			],
+			[
+				"QMe",
+				"QMessageText"
+			],
+			[
+				"Qh",
+				"QHeaderKey"
+			],
+			[
+				"QHe",
+				"QHeaderKey"
+			],
+			[
+				"cur",
+				"currentRecord"
+			],
+			[
+				"onS",
+				"onSendMessageClick"
+			],
+			[
+				"nu",
+				"nuvem-chat-title"
+			],
+			[
+				"this",
+				"thisEl"
+			],
+			[
+				"SCR",
+				"scrollToSelected"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"Sel",
+				"selModel"
+			],
+			[
+				"dv",
+				"dvMessage"
+			],
+			[
+				"data",
+				"dataViewMessage"
+			],
+			[
+				"onI",
+				"onItemSelect"
+			],
+			[
+				"fa",
+				"false"
+			],
+			[
+				"bo",
+				"border-style"
+			],
+			[
+				"n",
+				"node"
+			],
+			[
+				"sele",
+				"selectedItemCls"
+			],
+			[
+				"borco",
+				"border-color"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"ne",
+				"Nenhum"
+			],
+			[
+				"Intere",
+				"InterestedVendorName"
+			],
+			[
+				"QA",
+				"QAnswerValue"
+			],
+			[
+				"da",
+				"data"
+			],
+			[
+				"QAn",
+				"QAnswerDateDelivery"
+			],
+			[
+				"text",
+				"textEl"
+			],
+			[
+				"Res",
+				"Respondido"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 18707,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/model/QuoteOffers.js",
+			"settings":
+			{
+				"buffer_size": 3417,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/model/QuoteOfferDetails.js",
+			"settings":
+			{
+				"buffer_size": 2771,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/view/purchasers/EditItem.js",
+			"settings":
+			{
+				"buffer_size": 5533,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/view/purchasers/EditCustInfo.js",
+			"settings":
+			{
+				"buffer_size": 18154,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/view/vendors/EditVendorInfo.js",
+			"settings":
+			{
+				"buffer_size": 34277,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/controller/Home.js",
+			"settings":
+			{
+				"buffer_size": 3684,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/model/Items.js",
+			"settings":
+			{
+				"buffer_size": 3352,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/view/purchasers/EditQuoteHeaderItem.js",
+			"settings":
+			{
+				"buffer_size": 35386,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Searching 173 files for \"silentMode\" (case sensitive)\n\nC:\\Users\\Rony\\Google Drive\\DEV\\Projects\\NuvemSite\\app\\app\\model\\Attachments.js:\n   43          },\n   44          afterRequest: function (request, success) {\n   45:             var silentMode = this.getSilentMode();\n   46  \n   47              if (request.action == 'read') {\n   ..\n   54                      //Ext.global.console.warn(request.proxy.reader.jsonData.message);\n   55                  } else {\n   56:                     if(!silentMode)\n   57                      Ext.popupMsg.msg(\"Sucesso\",\"Registro atualizado com &#234;xito\");\n   58                  }\n   ..\n   64                      //Ext.global.console.warn(request.proxy.reader.jsonData.message);\n   65                  } else {\n   66:                     if(!silentMode)\n   67                      Ext.popupMsg.msg(\"Sucesso\",\"Registro atualizado com &#234;xito\");\n   68                  }\n   ..\n   74                      //Ext.global.console.warn(request.proxy.reader.jsonData.message);\n   75                  } else {\n   76:                     if(!silentMode)\n   77                      Ext.popupMsg.msg(\"Sucesso\",\"Registro exclu&#237;do com &#234;xito\");\n   78                  }\n\nC:\\Users\\Rony\\Google Drive\\DEV\\Projects\\NuvemSite\\app\\app\\model\\Images.js:\n   29          },\n   30          afterRequest: function (request, success) {\n   31:             var silentMode = this.getSilentMode();\n   32  \n   33              if (request.action == 'read') {\n   ..\n   40                      Ext.global.console.warn(request.proxy.reader.jsonData.message);\n   41                  } else {\n   42:                     if(!silentMode)\n   43                      Ext.popupMsg.msg(\"Sucesso\",\"Registro atualizado com &#234;xito\");\n   44                  }\n   ..\n   50                      Ext.global.console.warn(request.proxy.reader.jsonData.message);\n   51                  } else {\n   52:                     if(!silentMode)\n   53                      Ext.popupMsg.msg(\"Sucesso\",\"Registro atualizado com &#234;xito\");\n   54                  }\n   ..\n   60                      //Ext.global.console.warn(request.proxy.reader.jsonData.message);\n   61                  } else {\n   62:                     if(!silentMode)\n   63                      Ext.popupMsg.msg(\"Sucesso\",\"Registro exclu&#237;do com &#234;xito\");\n   64                  }\n\nC:\\Users\\Rony\\Google Drive\\DEV\\Projects\\NuvemSite\\app\\app\\model\\Notifications.js:\n   32          },\n   33          afterRequest: function(request, success) {\n   34:             var silentMode = this.getSilentMode();\n   35  \n   36              if (request.action == 'read') {\n   ..\n   41                      Ext.global.console.warn(request.proxy.reader.jsonData.message);\n   42                  } else {\n   43:                     if (!silentMode)\n   44                          Ext.popupMsg.msg(\"Sucesso\", \"Registro atualizado com &#234;xito\");\n   45                  }\n   ..\n   49                      Ext.global.console.warn(request.proxy.reader.jsonData.message);\n   50                  } else {\n   51:                     if (!silentMode)\n   52                          Ext.popupMsg.msg(\"Sucesso\", \"Registro atualizado com &#234;xito\");\n   53                  }\n   ..\n   56                      Ext.popupMsg.msg(\"Aviso\", \"O registo n&#227;o foi exclu&#237;do com &#234;xito\");\n   57                  } else {\n   58:                     if (!silentMode)\n   59                          Ext.popupMsg.msg(\"Sucesso\", \"Registro exclu&#237;do com &#234;xito\");\n   60                  }\n\nC:\\Users\\Rony\\Google Drive\\DEV\\Projects\\NuvemSite\\app\\app\\model\\QuoteDetails.js:\n   31          },\n   32          afterRequest: function(request, success) {\n   33:             var silentMode = this.getSilentMode();\n   34  \n   35              if (request.action == 'read') {\n   ..\n   40                      Ext.global.console.warn(request.proxy.reader.jsonData.message);\n   41                  } else {\n   42:                     if (!silentMode)\n   43                          Ext.popupMsg.msg(\"Sucesso\", \"Registro atualizado com &#234;xito\");\n   44                  }\n   ..\n   48                      Ext.global.console.warn(request.proxy.reader.jsonData.message);\n   49                  } else {\n   50:                     if (!silentMode)\n   51                          Ext.popupMsg.msg(\"Sucesso\", \"Registro atualizado com &#234;xito\");\n   52                  }\n   ..\n   55                      Ext.popupMsg.msg(\"Aviso\", \"O registo n&#227;o foi exclu&#237;do com &#234;xito\");\n   56                  } else {\n   57:                     if (!silentMode)\n   58                          Ext.popupMsg.msg(\"Sucesso\", \"Registro exclu&#237;do com &#234;xito\");\n   59                  }\n\nC:\\Users\\Rony\\Google Drive\\DEV\\Projects\\NuvemSite\\app\\app\\model\\QuoteHeaders.js:\n   57          },\n   58          afterRequest: function(request, success) {\n   59:             var silentMode = this.getSilentMode();\n   60  \n   61              if (request.action == 'read') {\n   ..\n   66                      Ext.global.console.warn(request.proxy.reader.jsonData.message);\n   67                  } else {\n   68:                     if (!silentMode)\n   69                          Ext.popupMsg.msg(\"Sucesso\", \"Registro atualizado com &#234;xito\");\n   70                  }\n   ..\n   74                      Ext.global.console.warn(request.proxy.reader.jsonData.message);\n   75                  } else {\n   76:                     if (!silentMode)\n   77                          Ext.popupMsg.msg(\"Sucesso\", \"Registro atualizado com &#234;xito\");\n   78                  }\n   ..\n   81                      Ext.popupMsg.msg(\"Aviso\", \"O registo n&#227;o foi exclu&#237;do com &#234;xito\");\n   82                  } else {\n   83:                     if (!silentMode)\n   84                          Ext.popupMsg.msg(\"Sucesso\", \"Registro exclu&#237;do com &#234;xito\");\n   85                  }\n\nC:\\Users\\Rony\\Google Drive\\DEV\\Projects\\NuvemSite\\app\\app\\model\\QuoteMessages.js:\n   34          },\n   35          afterRequest: function(request, success) {\n   36:             var silentMode = this.getSilentMode();\n   37  \n   38              if (request.action == 'read') {\n   ..\n   43                      Ext.global.console.warn(request.proxy.reader.jsonData.message);\n   44                  } else {\n   45:                     if (!silentMode)\n   46                          Ext.popupMsg.msg(\"Sucesso\", \"Registro atualizado com &#234;xito\");\n   47                  }\n   ..\n   51                      Ext.global.console.warn(request.proxy.reader.jsonData.message);\n   52                  } else {\n   53:                     if (!silentMode)\n   54                          Ext.popupMsg.msg(\"Sucesso\", \"Registro atualizado com &#234;xito\");\n   55                  }\n   ..\n   58                      Ext.popupMsg.msg(\"Aviso\", \"O registo n&#227;o foi exclu&#237;do com &#234;xito\");\n   59                  } else {\n   60:                     if (!silentMode)\n   61                          Ext.popupMsg.msg(\"Sucesso\", \"Registro exclu&#237;do com &#234;xito\");\n   62                  }\n\nC:\\Users\\Rony\\Google Drive\\DEV\\Projects\\NuvemSite\\app\\app\\model\\QuoteOfferDetails.js:\n   29          },\n   30          afterRequest: function(request, success) {\n   31:             var silentMode = this.getSilentMode();\n   32  \n   33              if (request.action == 'read') {\n   ..\n   38                      Ext.global.console.warn(request.proxy.reader.jsonData.message);\n   39                  } else {\n   40:                     if (!silentMode)\n   41                          Ext.popupMsg.msg(\"Sucesso\", \"Registro atualizado com &#234;xito\");\n   42                  }\n   ..\n   46                      Ext.global.console.warn(request.proxy.reader.jsonData.message);\n   47                  } else {\n   48:                     if (!silentMode)\n   49                          Ext.popupMsg.msg(\"Sucesso\", \"Registro atualizado com &#234;xito\");\n   50                  }\n   ..\n   53                      Ext.popupMsg.msg(\"Aviso\", \"O registo n&#227;o foi exclu&#237;do com &#234;xito\");\n   54                  } else {\n   55:                     if (!silentMode)\n   56                          Ext.popupMsg.msg(\"Sucesso\", \"Registro exclu&#237;do com &#234;xito\");\n   57                  }\n\nC:\\Users\\Rony\\Google Drive\\DEV\\Projects\\NuvemSite\\app\\app\\model\\QuoteOffers.js:\n   38          },\n   39          afterRequest: function(request, success) {\n   40:             var silentMode = this.getSilentMode();\n   41  \n   42              if (request.action == 'read') {\n   ..\n   47                      Ext.global.console.warn(request.proxy.reader.jsonData.message);\n   48                  } else {\n   49:                     if (!silentMode)\n   50                          Ext.popupMsg.msg(\"Sucesso\", \"Registro atualizado com &#234;xito\");\n   51                  }\n   ..\n   55                      Ext.global.console.warn(request.proxy.reader.jsonData.message);\n   56                  } else {\n   57:                     if (!silentMode)\n   58                          Ext.popupMsg.msg(\"Sucesso\", \"Registro atualizado com &#234;xito\");\n   59                  }\n   ..\n   62                      Ext.popupMsg.msg(\"Aviso\", \"O registo n&#227;o foi exclu&#237;do com &#234;xito\");\n   63                  } else {\n   64:                     if (!silentMode)\n   65                          Ext.popupMsg.msg(\"Sucesso\", \"Registro exclu&#237;do com &#234;xito\");\n   66                  }\n\nC:\\Users\\Rony\\Google Drive\\DEV\\Projects\\NuvemSite\\app\\app\\model\\Vendors.js:\n   53          },\n   54          afterRequest: function (request, success) {\n   55:             var silentMode = this.getSilentMode();\n   56  \n   57              if (request.action == 'read') {\n   ..\n   64                      Ext.global.console.warn(request.proxy.reader.jsonData.message);\n   65                  } else {\n   66:                     if(!silentMode)\n   67                      Ext.popupMsg.msg(\"Sucesso\",\"Registro atualizado com &#234;xito\");\n   68                  }\n   ..\n   74                      Ext.global.console.warn(request.proxy.reader.jsonData.message);\n   75                  } else {\n   76:                     if(!silentMode)\n   77                      Ext.popupMsg.msg(\"Sucesso\",\"Registro atualizado com &#234;xito\");\n   78                  }\n   ..\n   84                      //Ext.global.console.warn(request.proxy.reader.jsonData.message);\n   85                  } else {\n   86:                     if(!silentMode)\n   87                      Ext.popupMsg.msg(\"Sucesso\",\"Registro exclu&#237;do com &#234;xito\");\n   88                  }\n\nC:\\Users\\Rony\\Google Drive\\DEV\\Projects\\NuvemSite\\app\\overrides\\data\\proxy\\Proxy.js:\n    1  Ext.define('Overrides.data.proxy.Proxy', {\n    2  	override: 'Ext.data.proxy.Proxy',\n    3:     _silentMode: false,\n    4:     setSilentMode: function(silentMode) {\n    5:         this._silentMode = silentMode;\n    6      },\n    7      getSilentMode: function() {\n    8:         return this._silentMode;\n    9      }\n   10  });\n\n41 matches across 10 files\n\n\nSearching 173 files for \"displayTpl\" (case sensitive)\n\nC:\\Users\\Rony\\Google Drive\\DEV\\Projects\\NuvemSite\\app\\app\\view\\purchasers\\EditQuoteDetail.js:\n  146          var me = this,\n  147              rawvalue = field.getRawValue(),\n  148:             records = field.displayTplData;\n  149  \n  150          if (records && records.length > 0) {\n\n1 match in 1 file\n",
+			"settings":
+			{
+				"buffer_size": 11420,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "app/model/Attachments.js",
+			"settings":
+			{
+				"buffer_size": 3528,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/view/purchasers/EditQuoteHeaderService.js",
+			"settings":
+			{
+				"buffer_size": 33451,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/view/vendors/EditQuoteHeaderOffers.js",
+			"settings":
+			{
+				"buffer_size": 21215,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/view/purchasers/General.js",
+			"settings":
+			{
+				"buffer_size": 20274,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/model/QuoteHeaders.js",
+			"settings":
+			{
+				"buffer_size": 4870,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/view/vendors/General.js",
+			"settings":
+			{
+				"buffer_size": 17224,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/view/purchasers/EditCustShipAddress.js",
+			"settings":
+			{
+				"buffer_size": 7698,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/view/purchasers/EditQuoteDetail.js",
+			"settings":
+			{
+				"buffer_size": 9717,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/JSHint Inline/JSHint-Inline.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"fe",
+				"Fetch: File"
+			],
+			[
+				"",
+				"Fetch: Package"
+			],
+			[
+				"fet",
+				"Fetch: Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install ",
+				"Package Control: Install Package"
+			],
+			[
+				"snipp",
+				"Snippet: Bootstrap pagination"
+			],
+			[
+				"snip",
+				"Snippet: Bootstrap toolbar"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/index.html",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/model/Attachments.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/model/Currencies.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/store/Currencies.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/store/Sequences.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/store/States.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/store/Status.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/store/Users.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/store/VendorCategories.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/store/Vendors.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/store/VendorShipAddress.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/store/Items.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/store/Images.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/store/CustShipAddress.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/store/Customers.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/store/Cities.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/store/Categories.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/store/Attachments.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/store/CurrencyRates.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/store/Interested.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/store/Notifications.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/store/QuoteAnswers.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/store/QuoteChart.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/store/QuoteDetails.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/store/QuoteHeaders.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/store/QuoteMessages.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/store/QuoteOfferDetails.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/store/QuoteOffers.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/view/purchasers/EditItem.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/controller/Home.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/view/purchasers/EditQuoteHeaderService.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/view/purchasers/EditQuoteHeaderItem.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/view/purchasers/General.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/model/Vendors.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/view/vendors/EditVendorInfo.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/view/EditItem.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/view/purchasers/EditQuoteHeaderOffers.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/view/vendors/EditQuoteHeaderItem.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/view/vendors/EditQuoteHeaderService.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/view/vendors/EditVendorShipAddress.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/view/vendors/Panel.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/controller/Purchasers.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/Nuvem.sublime-workspace",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/view/vendors/EditUserInfo.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/view/purchasers/Panel.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/view/purchasers/EditUserInfo.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/view/purchasers/EditCustShipAddress.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/view/purchasers/EditCustInfo.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/view/NewItem.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/view/purchasers/EditQuoteDetail.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/ux/form/ToolbarOld.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/ux/form/Toolbar.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/model/QuoteDetails.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/resources/css/data-view.css",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/overrides/form/ComboBox.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/view/vendors/EditQuoteHeaderOffers.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/GlobalSettings.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/AppEvents.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/controller/Vendors.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/view/vendors/ToolBar.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/view/vendors/General.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/model/QuoteHeaders.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/resources/css/app.css",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/view/vendors/Support.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/model/VendorCategories.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/view/appViewPort.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/model/Items.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/ux/Router.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/view/purchasers/Support.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/view/common/ContentPanel.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/view/common/MainHeader.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/model/Users.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/view/purchasers/ToolBar.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/ux/NotifyButton.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/view/vendors/EditQuoteHeaderMessages.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/view/purchasers/EditQuoteHeaderMessages.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/model/QuoteOffers.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/model/Notifications.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/model/QuoteMessages.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/model/Interested.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/view/purchasers/EditQuoteHeaderService - copia.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/view/purchasers/EditQuoteHeaderAnswers.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/model/QuoteAnswers.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/resources/css/fonts.css",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/view/vendors/UsersList.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/view/purchasers/UsersList.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/model/VendorShipAddress.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/model/Categories.js",
+		"/C/Users/Rony/AppData/Roaming/Sublime Text 2/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/ext-lang-pt_BR.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/model/CustShipAddress.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/model/Customers.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/model/States.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/model/Cities.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/model/Images.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/view/EditQuoteHeader.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/publish.bat",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/app.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/app/view/common/MainHeader.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/app/view/appViewPort.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/app/view/purchasers/ToolBar.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/app/controller/Home.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/app/GlobalSettings.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/app/resources/css/app.css",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/app/view/purchasers/Support.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/ext-lang-br.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/index.html",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/app/model/QuoteHeaders.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/app/store/QuoteHeaders.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/app/store/Customers.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/app/model/Customers.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/app/controller/Logon.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/app/view/EditVendor.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/app/view/purchasers/General.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/app/model/Users.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/app/view/vendors/ToolBar.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/app/view/common/ToolBar.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/js/site.js",
+		"/C/Users/Rony/Google Drive/DEV/Projects/NuvemSite/app/app/app/view/purchasers/Panel.js",
+		"/C/Users/Rony/Google Drive/DEVProjects/NuvemSite/app/teste.html",
+		"/C/Users/Rony/Google Drive/DEVProjects/NuvemSite/app/js/site.js",
+		"/C/Users/Rony/Google Drive/DEVProjects/NuvemSite/app/app/app/view/common/Logon.js",
+		"/C/Users/Rony/Google Drive/DEVProjects/NuvemSite/app/app/app/view/Logon.js",
+		"/C/Users/Rony/Google Drive/DEVProjects/NuvemSite/app/app/ux/form/SearchField.js",
+		"/C/Users/Rony/Google Drive/DEVProjects/NuvemSite/app/app/app/controller/Vendors.js",
+		"/C/Users/Rony/Google Drive/DEVProjects/NuvemSite/app/app/index.html",
+		"/C/Users/Rony/Google Drive/DEVProjects/NuvemSite/app/app/view/ShowDocuments.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"displayTpl",
+			"silentMode",
+			"onClickAddline",
+			"customButtons",
+			"newBroadcast",
+			"getRecord",
+			"RegExp",
+			"Regexp",
+			"btnCancel",
+			"btnS",
+			"Excluir",
+			"btnSaveCa",
+			"btnSaveCancel",
+			"onSaveChanges",
+			"QHeaderStatus",
+			"QuoteAnswers",
+			"writeAllFields",
+			"CurrencyRateKey",
+			"CurrencyRates",
+			"CurrencyId",
+			"CurrencyRates",
+			"CurrencyId",
+			"QAnswer",
+			"onItemBlur",
+			"splitorder",
+			"activeCheckBox",
+			"QHeader",
+			"onChangeR",
+			"QHeader",
+			"ItemsList",
+			"EditItem",
+			"NewItem",
+			"field",
+			"NewItem",
+			"filtersFields",
+			"onAddItem",
+			"onItemBlur",
+			"11px",
+			":11px",
+			":11",
+			"11",
+			"fontSize: 11",
+			"me.title === 'Serviço'",
+			"filtersFields",
+			"QOffer",
+			"QOfferDraft",
+			"getParams",
+			"queryBy",
+			"QueryBy",
+			"storeItems",
+			"storeChart",
+			"checkSecurityToken",
+			"appViewPort",
+			"app-view",
+			"Nuvem.",
+			"purchases",
+			"Purchases",
+			"Order",
+			"Split",
+			"split",
+			"splitOrder",
+			"SplitOrder",
+			"onBackToQuotes",
+			"onClickOffer",
+			"storeCategories",
+			"onClickEditActionColumn",
+			"VendorShip",
+			"VendorShipAddress",
+			"VendorCompanyName",
+			"Cust",
+			"purchasers",
+			"!user.CustKey",
+			"purchasers",
+			"firstlogon",
+			"setTimeout",
+			"Notifications",
+			"actionOffers",
+			"onClickOffer",
+			"onBackToQuotes",
+			"onClickOffer",
+			"onBackToQuotes",
+			"Ext.Router.redirect('/');",
+			"onBackToQuotes()",
+			"each",
+			"console.log",
+			"\"admin\"",
+			"firstSession",
+			"firstLogonVendor",
+			"firstSession",
+			"signedVendor",
+			"vendorSigned",
+			"doRefresh",
+			"#",
+			"%;*/\n",
+			"Categories",
+			"onSaveHeaderOnly",
+			"onClickAddline",
+			"onClickOffer",
+			"foo",
+			"storeShipAddress",
+			"gridpanel",
+			"currentRecord",
+			"onSelectChange",
+			"onClickOffer",
+			"QDetail",
+			"storeQuoteDetail",
+			"gridQuoteDetails",
+			"QAnswer",
+			"qHeaderyKey",
+			"Answers",
+			"QuoteOfferDetails",
+			"QOfferDetail",
+			"QuoteOfferDetails",
+			"QOfferKey",
+			"QuoteOffers",
+			"onClickViewDetails",
+			"onClickMessage",
+			"onClickMessages",
+			"Answers",
+			"onSendMessageClick",
+			"onClickMessage",
+			"onClickAnswer",
+			"onClickDeleteColumn",
+			"onClickEditHeader",
+			"Items",
+			"onAddItem",
+			"Edit",
+			"Carregando..."
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"CurrencyCode",
+			"Currencies",
+			"CurrencyRateKey",
+			"Currencies",
+			"CurrencyRateKey",
+			"Vendor",
+			"fieldFilters",
+			"me.ItemType === 1",
+			"fieldFilters",
+			"QHeader",
+			"QHeaderDraft",
+			"FalconSoftApp.",
+			"storeVendorCategories",
+			"VendorCategory",
+			"VendorCategories",
+			"Vendor",
+			"vendors",
+			"!user.VendorKey",
+			"vendors",
+			"Ext.Router.redirect('!');",
+			"model",
+			"QOfferDetail",
+			"storeOfferDetails",
+			"gridOfferDetails",
+			"QOffer",
+			"qHeaderKey",
+			"Offers",
+			"Notifications",
+			"Notify",
+			"Notifications",
+			"QOfferDetailKey",
+			"QuoteOfferDetails",
+			"onClickMessages",
+			"onClickMessage",
+			"Messages",
+			"onClickMessages",
+			"QHeaderKey",
+			"ItemKey",
+			"Nuvem",
+			"columnWidth: 0.25",
+			"Nuvem",
+			"qHeaderKey",
+			"Detail",
+			"FFE2CA",
+			"scrollToBottom",
+			"400",
+			"gridInterested",
+			"storeInterested",
+			"qHeaderKey",
+			"Messages",
+			"Interested",
+			"onClickMessage",
+			"Offer",
+			"Message",
+			"QOffer",
+			"Messages",
+			"QMessage",
+			"Offer",
+			"EditQuoteHeaderAnswers",
+			"HeaderyKey",
+			"QuoteAnswers",
+			"QAnswerKey",
+			"QuoteAnswers",
+			"onClickAnswer",
+			"readOnly: true",
+			"disabled: true",
+			"vendors",
+			"Vendor",
+			"vendors",
+			"Vendor",
+			"EditVendor",
+			"vendors",
+			"VendorKey",
+			"vendors",
+			"Vendors",
+			"vendors",
+			"Serviço",
+			"EditQuoteHeaderService",
+			"Category",
+			"Categories",
+			"Category",
+			"Categories",
+			"cp",
+			"RenderForm",
+			"readOnly: me.currentRecord.phantom ? false : true;",
+			"0.7",
+			"User",
+			"n&#227;o",
+			"n\\ue003o",
+			"n\\uE003o",
+			"UserKey",
+			"Validação",
+			"\nValidação",
+			"onClickEditUser",
+			"EditUserInfo",
+			"16px",
+			"iconAlign: 'center',",
+			"132px",
+			"18px",
+			"132px",
+			"store.CustShipAddress",
+			"CustShipAddress",
+			"store.",
+			"EditCustShipAddress",
+			"name: 'CustShip",
+			"view.purchasers.",
+			"Nuvem.",
+			"view.purchasers",
+			"Nuvem.",
+			"beforequery: function(queryPlan)",
+			"City",
+			"Cities",
+			"City",
+			"Cities",
+			"State",
+			"States",
+			"State",
+			"States",
+			"CustShipAddress",
+			"Customers",
+			"EditCustInfo",
+			"148px",
+			"22px",
+			"Nuvem",
+			"scope: me",
+			"me.activeCheckBox",
+			"getValue()",
+			".geetValue() &&"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 9,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app.js",
+					"settings":
+					{
+						"buffer_size": 18707,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10045,
+								10045
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2508.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/model/QuoteOffers.js",
+					"settings":
+					{
+						"buffer_size": 3417,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1364,
+								1364
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/model/QuoteOfferDetails.js",
+					"settings":
+					{
+						"buffer_size": 2771,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1167,
+								1167
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/view/purchasers/EditItem.js",
+					"settings":
+					{
+						"buffer_size": 5533,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2810,
+								2810
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 523.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/view/purchasers/EditCustInfo.js",
+					"settings":
+					{
+						"buffer_size": 18154,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6703,
+								6703
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1930.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/view/vendors/EditVendorInfo.js",
+					"settings":
+					{
+						"buffer_size": 34277,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3492,
+								3492
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1218.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/controller/Home.js",
+					"settings":
+					{
+						"buffer_size": 3684,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								596,
+								596
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/model/Items.js",
+					"settings":
+					{
+						"buffer_size": 3352,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								998,
+								998
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/view/purchasers/EditQuoteHeaderItem.js",
+					"settings":
+					{
+						"buffer_size": 35386,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5618,
+								5470
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1879.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"settings":
+					{
+						"buffer_size": 11420,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										235,
+										245
+									],
+									[
+										491,
+										501
+									],
+									[
+										783,
+										793
+									],
+									[
+										1075,
+										1085
+									],
+									[
+										1384,
+										1394
+									],
+									[
+										1638,
+										1648
+									],
+									[
+										1928,
+										1938
+									],
+									[
+										2220,
+										2230
+									],
+									[
+										2535,
+										2545
+									],
+									[
+										2790,
+										2800
+									],
+									[
+										3086,
+										3096
+									],
+									[
+										3400,
+										3410
+									],
+									[
+										3719,
+										3729
+									],
+									[
+										3974,
+										3984
+									],
+									[
+										4270,
+										4280
+									],
+									[
+										4584,
+										4594
+									],
+									[
+										4903,
+										4913
+									],
+									[
+										5158,
+										5168
+									],
+									[
+										5454,
+										5464
+									],
+									[
+										5768,
+										5778
+									],
+									[
+										6088,
+										6098
+									],
+									[
+										6343,
+										6353
+									],
+									[
+										6639,
+										6649
+									],
+									[
+										6953,
+										6963
+									],
+									[
+										7277,
+										7287
+									],
+									[
+										7532,
+										7542
+									],
+									[
+										7828,
+										7838
+									],
+									[
+										8142,
+										8152
+									],
+									[
+										8460,
+										8470
+									],
+									[
+										8715,
+										8725
+									],
+									[
+										9011,
+										9021
+									],
+									[
+										9325,
+										9335
+									],
+									[
+										9640,
+										9650
+									],
+									[
+										9894,
+										9904
+									],
+									[
+										10184,
+										10194
+									],
+									[
+										10476,
+										10486
+									],
+									[
+										10799,
+										10809
+									],
+									[
+										10853,
+										10863
+									],
+									[
+										10888,
+										10898
+									],
+									[
+										10901,
+										10911
+									],
+									[
+										10994,
+										11004
+									],
+									[
+										11325,
+										11335
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								11060,
+								11060
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"output_tag": 2,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3374.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/model/Attachments.js",
+					"settings":
+					{
+						"buffer_size": 3528,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3528,
+								3528
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 814.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "app/view/purchasers/EditQuoteHeaderService.js",
+					"settings":
+					{
+						"buffer_size": 33451,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17459,
+								17459
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5517.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "app/view/vendors/EditQuoteHeaderOffers.js",
+					"settings":
+					{
+						"buffer_size": 21215,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14895,
+								14904
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3963.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "app/view/purchasers/General.js",
+					"settings":
+					{
+						"buffer_size": 20274,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4682,
+								4682
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1218.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "app/model/QuoteHeaders.js",
+					"settings":
+					{
+						"buffer_size": 4870,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2882,
+								2882
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "app/view/vendors/General.js",
+					"settings":
+					{
+						"buffer_size": 17224,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								854,
+								854
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 42.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "app/view/purchasers/EditCustShipAddress.js",
+					"settings":
+					{
+						"buffer_size": 7698,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6346,
+								6346
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2070.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "app/view/purchasers/EditQuoteDetail.js",
+					"settings":
+					{
+						"buffer_size": 9717,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1462,
+								1462
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 163.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 289.0,
+	"status_bar_visible": true
+}

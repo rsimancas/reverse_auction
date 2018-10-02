@@ -1,0 +1,275 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Data;
+using System.Data.SqlClient;
+using Utilidades;
+using Helpers;
+using System.Reflection;
+
+namespace NuvemWA.Models
+{
+    public class ItemsRepository : IItemsRepository
+    {
+        public IList<Items> GetList(string query, Sort sort, int page, int start, int limit, ref int totalRecords, ref string errMsg)
+        {
+            limit = limit + start;
+
+            SqlConnection oConn = null;
+
+            try
+            {
+                oConn = ConnManager.OpenConn();
+            }
+            catch (Exception ex)
+            {
+                LogManager.Write("ERROR:" + Environment.NewLine + "\tMETHOD = " + this.GetType().FullName + "." + MethodBase.GetCurrentMethod().Name + Environment.NewLine + "\tMESSAGE = " + ex.Message);
+                throw;
+            };
+
+            string wherepage = (page != 0) ? String.Format("row>{0} and row<={1} ", start, limit) : "1=1";
+            string where = "1=1";
+
+            if (!string.IsNullOrEmpty(query))
+            {
+                string fieldName = "a.ItemName";
+                where += (!string.IsNullOrEmpty(where) ? " and " : "") +
+                    EnumExtension.generateLikeWhere(query, fieldName);
+            }
+
+            // Ordenamiento
+            string order = "a.ItemName";
+            string direction = "ASC";
+
+            if (!string.IsNullOrWhiteSpace(sort.property))
+            {
+                order = sort.property;
+                direction = sort.direction;
+            }
+
+            string sql = "SELECT * FROM ( " +
+                         "SELECT a.*,b.VendorName as x_VendorName, " +
+                         "  ROW_NUMBER() OVER (ORDER BY {2} {3}) as row,  " +
+                         "  IsNull((select count(*) from Items a WHERE {0}),0)  as TotalRecords   " +
+                         " FROM Items a INNER JOIN Vendors b ON a.VendorId=b.VendorId WHERE {0}) a  " +
+                         " WHERE {1} " +
+                         " ORDER BY row";
+
+            sql = String.Format(sql, where, wherepage, order, direction);
+
+            SqlDataAdapter da = new SqlDataAdapter(sql, oConn);
+
+            DataSet ds = new DataSet();
+
+            try
+            {
+                da.Fill(ds);
+            }
+            catch (Exception ex)
+            {
+                LogManager.Write("ERROR:" + Environment.NewLine + "\tMETHOD = " + this.GetType().FullName + "." + MethodBase.GetCurrentMethod().Name + Environment.NewLine + "\tMESSAGE = " + ex.Message);
+                errMsg = ex.Message;
+                return null;
+            }
+
+            ConnManager.CloseConn(oConn);
+
+            DataTable dt;
+            dt = ds.Tables[0];
+
+            totalRecords = dt.Rows.Count;
+
+            if (totalRecords > 0)
+            {
+
+                IList<Items> data = EnumExtension.ToList<Items>(dt);
+                totalRecords = Convert.ToInt32(dt.Rows[0]["TotalRecords"]);
+                return data;
+            }
+            else
+            {
+                return null;
+            }
+        }
+
+        public Items Get(int id, ref string msgError)
+        {
+            SqlConnection oConn = null;
+
+            try
+            {
+                oConn = ConnManager.OpenConn();
+            }
+            catch (Exception ex)
+            {
+                LogManager.Write("ERROR:" + Environment.NewLine + "\tMETHOD = " + this.GetType().FullName + "." + MethodBase.GetCurrentMethod().Name + Environment.NewLine + "\tMESSAGE = " + ex.Message);
+                msgError = ex.Message;
+                return null;
+            };
+
+            Items data = Get(id, oConn);
+
+            ConnManager.CloseConn(oConn);
+
+            return data;
+        }
+
+        public Items Add(Items data, ref string msgError)
+        {
+            SqlConnection oConn = null;
+
+            try
+            {
+                oConn = ConnManager.OpenConn();
+            }
+            catch (Exception ex)
+            {
+                LogManager.Write("ERROR:" + Environment.NewLine + "\tMETHOD = " + this.GetType().FullName + "." + MethodBase.GetCurrentMethod().Name + Environment.NewLine + "\tMESSAGE = " + ex.Message);
+                throw;
+            };
+
+            data.ItemCreatedDate = DateTime.Now;
+            string sql = "INSERT INTO Items ({0}) VALUES ({1}) " +
+                "SELECT SCOPE_IDENTITY()";
+
+            EnumExtension.setListValues(data, "ItemId", ref sql);
+
+            SqlCommand cmd = new SqlCommand(sql, oConn);
+
+            int keyGenerated = 0;
+
+            try
+            {
+                keyGenerated = Convert.ToInt32(cmd.ExecuteScalar());
+            }
+            catch (Exception ex)
+            {
+                ConnManager.CloseConn(oConn);
+                LogManager.Write("ERROR:" + Environment.NewLine + "\tMETHOD = " + this.GetType().FullName + "." + MethodBase.GetCurrentMethod().Name + Environment.NewLine + "\tMESSAGE = " + ex.Message);
+                msgError = ex.Message;
+                return null;
+            }
+
+            Items returnData = Get(keyGenerated, oConn);
+
+            ConnManager.CloseConn(oConn);
+
+            return returnData;
+        }
+
+        public Items Update(Items data, ref string msgError)
+        {
+            SqlConnection oConn = null;
+
+            try
+            {
+                oConn = ConnManager.OpenConn();
+            }
+            catch (Exception ex)
+            {
+                LogManager.Write("ERROR:" + Environment.NewLine + "\tMETHOD = " + this.GetType().FullName + "." + MethodBase.GetCurrentMethod().Name + Environment.NewLine + "\tMESSAGE = " + ex.Message);
+                throw;
+            };
+
+            data.ItemModifiedDate = DateTime.Now;
+            string sql = "UPDATE Items SET {0} WHERE ItemId = " + data.ItemId.ToString();
+
+            EnumExtension.setUpdateValues(data, "ItemId", ref sql);
+
+            SqlCommand cmd = new SqlCommand(sql, oConn);
+
+            try
+            {
+                cmd.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                ConnManager.CloseConn(oConn);
+                LogManager.Write("ERROR:" + Environment.NewLine + "\tMETHOD = " + this.GetType().FullName + "." + MethodBase.GetCurrentMethod().Name + Environment.NewLine + "\tMESSAGE = " + ex.Message);
+                msgError = ex.Message;
+                return null;
+            }
+
+            Items returnData = Get(data.ItemId, oConn);
+
+            ConnManager.CloseConn(oConn);
+
+            return returnData;
+        }
+
+        private Items Get(int id, SqlConnection oConn)
+        {
+            string sql = "SELECT a.*,b.VendorName as x_VendorName FROM Items a INNER JOIN Vendors b ON a.VendorId=b.VendorId" +
+                         " WHERE (a.ItemId = @id)";
+
+            SqlDataAdapter da = new SqlDataAdapter(sql, oConn);
+
+            da.SelectCommand.Parameters.Add("@id", SqlDbType.Int).Value = Convert.ToInt32(id);
+
+            DataSet ds = new DataSet();
+
+            da.Fill(ds);
+
+            DataTable dt;
+            dt = ds.Tables[0];
+
+            if (dt.Rows.Count > 0)
+            {
+                IList<Items> data = EnumExtension.ToList<Items>(dt);
+                return data.FirstOrDefault<Items>();
+            }
+
+            return null;
+        }
+
+        public bool Remove(Items data, ref string msgError)
+        {
+            SqlConnection oConn = null;
+
+            try
+            {
+                oConn = ConnManager.OpenConn();
+            }
+            catch (Exception ex)
+            {
+                LogManager.Write("ERROR:" + Environment.NewLine + "\tMETHOD = " + this.GetType().FullName + "." + MethodBase.GetCurrentMethod().Name + Environment.NewLine + "\tMESSAGE = " + ex.Message);
+                msgError = ex.Message;
+                return false;
+            };
+
+            bool result;
+            try
+            {
+                result = Remove(data, oConn);
+            }
+            catch (Exception ex)
+            {
+                ConnManager.CloseConn(oConn);
+                LogManager.Write("ERROR:" + Environment.NewLine + "\tMETHOD = " + this.GetType().FullName + "." + MethodBase.GetCurrentMethod().Name + Environment.NewLine + "\tMESSAGE = " + ex.Message);
+                return false;
+            }
+
+            ConnManager.CloseConn(oConn);
+
+            return result;
+        }
+
+        private bool Remove(Items data, SqlConnection oConn)
+        {
+            string sql = "DELETE FROM Items " +
+                         " WHERE (ItemId = {0})";
+
+            sql = String.Format(sql, data.ItemId);
+
+            SqlCommand cmd = new SqlCommand(sql, oConn);
+
+            int number = Convert.ToInt32(cmd.ExecuteNonQuery());
+
+            if (number > 0) return true;
+
+            return false;
+        }
+
+    }
+}

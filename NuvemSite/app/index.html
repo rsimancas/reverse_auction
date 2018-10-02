@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <style type="text/css">
+    #loading {
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+        position: fixed;
+        display: block;
+        z-index: 99;
+        background-color: #1985D0
+    }
+    
+    #loading-image {
+        position: absolute;
+        top: 40%;
+        left: 45%;
+        z-index: 100
+    }
+    </style>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="SHORTCUT ICON" href="images/logo_icono.ico" type="image/x-icon" />
+    <title>Nuvem B2B</title>
+    <link rel="stylesheet" href="../pkg/ext-4.2.1.883/resources/ext-theme-neptune/ext-theme-neptune-all.css">
+    <link rel="stylesheet" href="app/resources/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/flag-icon.min.css">
+</head>
+
+<body>
+    <div id="loading">
+        <img id="loading-image" src="images/loading.gif" alt="Carregando..." />
+    </div>
+    <script src="../pkg/ext-4.2.1.883/ext-all.js"></script>
+    <script src="../pkg/ext-4.2.1.883/ext-theme-neptune.js"></script>
+    <!--<script src="ext-lang-br.js"></script>-->
+    <script src="../js/URI.min.js"></script>
+    <script type="text/javascript">
+    var connection = null;
+    var today = new Date(),
+        href = '?_DC=' + today.getTime();
+
+    // We load some scripts
+    Ext.Loader.loadScript({
+        url: "scripts/behavior.js" + href,
+        onLoad: function() {
+            Ext.Loader.loadScript({
+                url: "../pkg/JIC.js" + href,
+                onLoad: function() {
+                    Ext.Loader.loadScript({
+                        url: "app.js" + href
+                    });
+                }
+            });
+        }
+    });
+    </script>
+    <script src="deft-debug.js"></script>
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../Scripts/jquery.signalR-2.2.0.js"></script>
+    <script type="text/javascript">
+    $(function() {
+        //console.log($.connection);
+
+        setTimeout(function() {
+            connection = $.connection('../echo');
+
+            connection.received(function(data) {
+                //console.log(data, Nuvem.GlobalSettings);
+                //if (Nuvem.GlobalSettings) {
+                Nuvem.AppEvents.fireEvent("newBroadcast", data);
+                //}
+            });
+
+            connection.start().done(function() {
+                connection.send(JSON.stringify({
+                    CommandType: 'Talk',
+                    CommandText: "works"
+                }));
+            });
+
+        }, 2000);
+
+    });
+    </script>
+    
+</body>
+
+</html>

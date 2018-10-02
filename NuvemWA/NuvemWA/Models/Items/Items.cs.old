@@ -1,0 +1,24 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Data;
+using System.Data.SqlClient;
+
+namespace NuvemWA.Models
+{
+    public class Items
+    {
+        public int ItemId { get; set; }
+        public int VendorId { get; set; }
+        public string ItemName { get; set; }
+        public string ItemNum { get; set; }
+        public decimal ItemPrice { get; set; }
+        public string ItemCreatedBy { get; set; }
+        public DateTime ItemCreatedDate { get; set; }
+        public string ItemModifiedBy { get; set; }
+        public Nullable<DateTime> ItemModifiedDate { get; set; }
+        public string ItemGYCode { get; set; }
+        public string x_VendorName { get; set; }
+    }
+}

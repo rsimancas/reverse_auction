@@ -1,0 +1,65 @@
+﻿@{
+    Layout = null;
+    Uri WebsiteImAt = new Uri(ViewBag.path);
+    string hrefFB = new Uri(WebsiteImAt, "images/fb.png").AbsoluteUri;
+    string hrefGG = new Uri(WebsiteImAt, "images/google.png").AbsoluteUri;
+    string hrefTT = new Uri(WebsiteImAt, "images/twitter.png").AbsoluteUri;
+    string hrefYB = new Uri(WebsiteImAt, "images/youtube.png").AbsoluteUri;
+    string hrefLogo = new Uri(WebsiteImAt, "Images/LogoEmail.png").AbsoluteUri;
+    string msgBody = ViewBag.Winner ? "aceitou sua proposta" : "aceitou a proposta de outro fornecedor";
+    msgBody += " na ordem de compra #:" + ViewBag.quote.QHeaderOC; 
+}
+<html>
+<head>
+    <title>Nuvem b2b</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <div style="display: block; margin: 75px 15% 50px 15%;    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05); border: 1px solid #e3e3e3; background-color: #f5f5f5;">
+        <div style="margin-top:0%;position: relative;min-height: 60px;margin-bottom: 20px;border: 1px solid transparent;background-color: black;margin: 2% 22% 0px 22%;">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div>
+                <a href="#"> <img style="margin:10px 15px 10px 15px;" src="@hrefLogo" alt="logo"></a>
+                <!-- /.navbar-collapse -->
+            </div>
+        </div>
+        <div style="display:block; margin: 20px 50px 0px 50px;">
+            <div style="background-color:#ffffff;border:1px solid #e3e3e3;-webkit-box-shadow:3px 3px 3px rgba(0, 0, 0, .05);box-shadow:3px 3px 3px rgba(0, 0, 0, .05);margin: 2% 22% 0px 22%;">
+                <div style="display:block; margin: 2% 22% 0px 22%;">
+                    <p>
+                        <b>@ViewBag.Vendor</b> @(ViewBag.Winner ? "parabéns" : "sentimos muito,")<br/><br />
+
+                        <b>@ViewBag.Customer</b> @msgBody
+                    </p>
+                </div>
+            </div>
+            <div style="display:block; margin: 20px 50px 0px 50px;">
+                <p style="text-align: center; width:100%;">
+                    Atenciosamente,
+                </p>
+                <p style="text-align: center; width:100%;">
+                    Equipe Nuvem B2B
+                </p>
+                <p style="text-align: center;display:inline-block; width:100%;">
+                    <img src="@hrefFB" alt="Facebook">
+                    <img src="@hrefGG" alt="Google+">
+                    <img src="@hrefTT" alt="Twitter">
+                    <img src="@hrefYB" alt="Youtube">
+                </p>
+            </div>
+        </div>
+        <div style="display:block; margin: 20px 50px 0px 50px;">
+            <div style="display:block; margin: 2% 22% 0px 22%;">
+                <p style="text-align:center; width:100%;">
+                    <small>Este e-mail &eacute; destinado apenas para envio de mensagens. Dessa forma, caso queira nos contatar, n&atilde;o responda para este e-mail - n&oacute;s n&atilde;o receberemos sua mensagem. Utilize nosso suporte pelo e-mail:</small>
+                    <a href="mailto:suporte@nuvem2b2.com.br"
+                       style="display: block;margin-right: auto;margin-left: auto;color: #fff; background-color: #286090; border-color: #204d74;padding: 6px 12px;margin-bottom: 0;font-size: 14px;font-weight: normal;line-height: 1.42857143;text-align: center;white-space: nowrap;vertical-align: middle;-ms-touch-action: manipulation;touch-action: manipulation;cursor: pointer;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;background-image: none;border: 1px solid transparent;border-radius: 4px; text-decoration:none;font-weight:bold;"
+                       >suporte@nuvemb2b.com.br.</a>
+                    <small>Obrigado</small><br />
+                    <small>Copyright &copy; @DateTime.Now.Year - Nuvem B2B. Todos os direitos reservados.</small>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
